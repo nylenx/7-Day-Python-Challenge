@@ -135,5 +135,3 @@
 
 ---
 
-### 🗂 Folder Structure Suggestion
-
