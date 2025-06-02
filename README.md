@@ -7,10 +7,10 @@
 **Topics**: Variables, Data Types, `input()`, `print()`, Type Casting
 
 **Tasks**:
-1. [ ] Accept user name and age → print a greeting.
-2. [ ] Swap two numbers (with and without using a third variable).
-3. [ ] Convert temperature from Celsius to Fahrenheit.
-4. [ ] Take a string input → reverse it using slicing.
+1. [✅] Accept user name and age → print a greeting.
+2. [✅] Swap two numbers (with and without using a third variable).
+3. [✅] Convert temperature from Celsius to Fahrenheit.
+4. [✅] Take a string input → reverse it using slicing.
 
 **Suggested filenames**:
 - `day1_01_greeting.py`  
