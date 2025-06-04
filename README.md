@@ -45,10 +45,10 @@
 **Topics**: `def`, return, `*args`, `**kwargs`, lambda, scope
 
 **Tasks**:
-1. [ ] Function to check if a number is palindrome
-2. [ ] Function to count vowels in a string
-3. [ ] Write a lambda to double a list using `map()`
-4. [ ] Function that takes any number of inputs and returns their average
+1. [✅] Function to check if a number is palindrome
+2. [✅] Function to count vowels in a string
+3. [✅] Write a lambda to double a list using `map()`
+4. [✅] Function that takes any number of inputs and returns their average
 
 **Suggested filenames**:
 - `day3_01_palindrome_checker.py`  
