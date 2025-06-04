@@ -25,11 +25,11 @@
 **Topics**: `if`, `elif`, `else`, `for`, `while`, `break`, `continue`
 
 **Tasks**:
-1. [ ] Odd/Even checker
-2. [ ] Simple calculator with `+ - * / %` using if-else
-3. [ ] Prime number checker up to N
-4. [ ] Multiplication table using a loop
-5. [ ] Number guessing game (1–10, retry until guessed)
+1. [✅] Odd/Even checker
+2. [✅] Simple calculator with `+ - * / %` using if-else
+3. [✅] Prime number checker up to N
+4. [✅] Multiplication table using a loop
+5. [✅] Number guessing game (1–10, retry until guessed)
 
 **Suggested filenames**:
 - `day2_01_odd_even_checker.py`  
