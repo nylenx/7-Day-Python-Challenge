@@ -63,11 +63,11 @@
 **Topics**: CRUD operations on lists, tuples, sets, slicing
 
 **Tasks**:
-1. [ ] Add/remove elements in a list
-2. [ ] Remove duplicates from a list using set
-3. [ ] Find union and intersection of two sets
-4. [ ] Create a list of squares of even numbers from 1–20 using list comprehension
-5. [ ] Tuple unpacking task
+1. [✅] Add/remove elements in a list
+2. [✅] Remove duplicates from a list using set
+3. [✅] Find union and intersection of two sets
+4. [✅] Create a list of squares of even numbers from 1–20 using list comprehension
+5. [✅] Tuple unpacking task
 
 **Suggested filenames**:
 - `day4_01_list_operations.py`  
