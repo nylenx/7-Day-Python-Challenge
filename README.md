@@ -83,10 +83,10 @@
 **Topics**: Key-value pairs, loop over dict, reading/writing files
 
 **Tasks**:
-1. [ ] Dictionary of students and marks → print who passed (marks > 40)
-2. [ ] Word counter: Read a `.txt` file and count word frequency
-3. [ ] Write user input to a file and read it back
-4. [ ] Merge two dictionaries
+1. [✅] Dictionary of students and marks → print who passed (marks > 40)
+2. [✅] Word counter: Read a `.txt` file and count word frequency
+3. [✅] Write user input to a file and read it back
+4. [✅] Merge two dictionaries
 
 **Suggested filenames**:
 - `day5_01_passed_students.py`  

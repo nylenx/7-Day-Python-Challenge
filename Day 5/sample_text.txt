@@ -1,0 +1,4 @@
+
+Learning Python is fun. Python is powerful and easy to learn.
+This file is a sample file for practicing file handling and word counting in Python.
+Let's count how many times each word appears in this file.
