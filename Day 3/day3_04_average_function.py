@@ -1,8 +1,10 @@
-no_of_input = int(input("Enter number of inputs: "))
+def make_avg(*args) -> float:
+    if not args:
+        return 0
+    return sum(args)/len(args)
 
-input_list = []
+user_inputs = input("Enter numbers separated by spaces: ")
 
-while(len(input_list)<no_of_input):
-    input_list.append(int(input("=> ")))
+input_list = list(map(float,user_inputs.split()))
 
-print(f'Average of {input_list} is {sum(input_list)/no_of_input}')
+print(f'Average of {input_list} is {make_avg(*input_list)}')
