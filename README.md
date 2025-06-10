@@ -101,10 +101,10 @@
 **Topics**: Classes, `__init__`, methods, inheritance, `try/except`
 
 **Tasks**:
-1. [ ] Create a `BankAccount` class → deposit, withdraw, show balance
-2. [ ] Inherit `Employee` into `Manager` → add `team_size`
-3. [ ] Raise and handle a custom exception for invalid balance
-4. [ ] Use `try/except/finally` for safe file reading
+1. [✅] Create a `BankAccount` class → deposit, withdraw, show balance
+2. [✅] Inherit `Employee` into `Manager` → add `team_size`
+3. [✅] Raise and handle a custom exception for invalid balance
+4. [✅] Use `try/except/finally` for safe file reading
 
 **Suggested filenames**:
 - `day6_01_bank_account.py`  
