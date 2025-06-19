@@ -48,10 +48,10 @@ class TODO:
         self.file.truncate()
 
     def show_task(self):
-        print('TO-DO List'.center(len('TO-DO List')+10,'-'))
+        print('\n','TO-DO List'.center(len('TO-DO List')+10,'-'))
         if len(self.data['task']):
-            for task in self.data['task']:
-                print(f'{task['id']}. [{'✅' if task['status'] else '  ' }] {task['label']}')
+            for idx,task in enumerate(self.data['task'], start=1):
+                print(f'{idx}. [{'✅' if task['status'] else '  ' }] {task['label']}')
         else:
             print("List is EMPTY")
         # pass
@@ -84,11 +84,13 @@ class TODO:
                     self.clr_list()
                 elif option == '0':
                     self.close_json()
+                    print("Exit Successfully")
                     in_control = False
                     exit()
                 else:
                     print('INVALID CHOICE, try again...')
-
+        except KeyboardInterrupt:
+            print("\nKeyboard Escape INITIATED!!")
         except Exception as e:
             print(e)
         finally:
@@ -96,29 +98,32 @@ class TODO:
 
     def add_task(self):
         t_name = None
-        t_name = input('Enter task: ')
-        self.data['task'].append({'id':len(self.data['task'])+1,'label':t_name, 'status': False})
+        t_name = input('Enter Task: ')
+        self.data['task'].append({'label':t_name, 'status': False})
 
     def mark_done(self):
         t_id = None
         t_id = int(input('Mark DONE, id: '))
-        [x.update({'status':True}) for x  in self.data['task'] if x['id'] == t_id]
+        [x.update({'status':True}) for idx,x  in enumerate(self.data['task'], start=1) if idx == t_id]
 
     def mark_pending(self):
         t_id = None
         t_id = int(input('Mark PENDING, id: '))
-        [x.update({'status':False}) for x  in self.data['task'] if x['id'] == t_id]
+        [x.update({'status':False}) for idx,x  in enumerate(self.data['task'], start=1) if idx == t_id]
 
     def del_task(self):
         t_id = None
         t_id = int(input('DEL Task, id: '))
-        if input(f"Confirm Delete task id : {t_id} \nY/N (YES/NO):").lower() == 'y':
-            self.data['task'] = [x for x in self.data['task'] if x['id'] != t_id]
+        if input(f"Confirm DELETE task id : {t_id} \nY/N (YES/NO):").lower() == 'y':
+            self.data['task'] = [x for idx,x in enumerate(self.data['task'], start=1) if idx != t_id]
         else:
             print("Action Denied")
 
     def clr_list(self):
-        pass
+        if input(f"Confirm CLEAR List: \nY/N (YES/NO):").lower() == 'y':
+            self.data['task'].clear()
+        else:
+            print("Action Denied")
 
 if __name__ == '__main__':
 

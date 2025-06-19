@@ -123,7 +123,7 @@
 2. [✅] Use `datetime`, `random`, `os` in meaningful ways
 3. [✅] Create a virtual environment and install `requests`
 4. [ ] Mini Project (Choose One):
-   - [ ] 🗂️ **To-Do App (CLI)** – Add, mark as done, delete tasks (store in a file)
+   - [✅] 🗂️ **To-Do App (CLI)** – Add, mark as done, delete tasks (store in a file)
    - [ ] 📝 **Student Record Manager** – Add/view/edit/delete student info stored in a dictionary/file
 
 **Suggested filenames**:
