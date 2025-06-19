@@ -1,6 +1,6 @@
 def multiple_input() -> list:
     input_str = input('Enter values separated by spaces:\n--> ')
-    return tuple(map(str,input_str.split()))
+    return tuple(map(str,input_str.split()))[0:3]
 
 user_input = multiple_input()
 
